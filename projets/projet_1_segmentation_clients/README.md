@@ -21,6 +21,7 @@ projet_1_segmentation_clients/
 │   ├── segmentation_python.ipynb
 │   ├── README.md  # Explication spécifique Python
 │── data/  # Dataset utilisé pour tous
+|   ├── données_brutes.csv 
 │── README.md  # Explication générale du projet
 ```
 

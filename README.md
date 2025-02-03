@@ -20,7 +20,7 @@ mon_portfolio_data_science/
 
 ## 📂 Mes projets
 
-### 📊 [Projet 3: Segmentation client](./projets/projet_3_segmentation_clients/README.md)
+### 📊 [Projet 1: Segmentation client](./projets/projet_1_segmentation_clients/README.md)
 - 📌 Implémentation en **PySpark, Python et R**
 - 🏷️ Comparaison des algorithmes **K-Means, DBSCAN et GMM**
 - 📈 Analyse et visualisation des segments

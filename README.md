@@ -115,7 +115,7 @@ mon_portfolio_data_science/
 
 - Implémentation de **content-based filtering**
 
-### 📌 [Projet 9 : Classification d'images](./projets/projet_9_classification_image /README.md)
+### 📌 [Projet 9 : Classification d'images](./projets/projet_9_classification_image/README.md)
 
 - Prétraitement des images avec **OpenCV**
 - Développement d’un modèle **CNN avec TensorFlow/Keras**

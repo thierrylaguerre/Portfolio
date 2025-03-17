@@ -30,10 +30,8 @@ L'objectif de ce projet est de prédire les **ventes commerciales** en fonction 
      - **R² Score**  
 
 5. **Interprétation des Résultats**
-   - Analyse de la contribution de chaque canal publicitaire aux ventes.
-   - Recommandations pour l’optimisation des budgets publicitaires.
-
-## 📂 Structure du Projet
+   
+## Structure du Projet
 
 ```
 projet_2_prediction_ventes_pub/
@@ -43,20 +41,15 @@ projet_2_prediction_ventes_pub/
 │── README.md # Présentation générale du projet
 ````
 
-## 🚀 Résultats et Analyse
+## Résultats et Analyse
 
-### 📌 Comparaison des Algorithmes
+### Comparaison des Algorithmes
 - **Régression Linéaire** : Simple et interprétable, mais sensible aux **outliers**.
 - **Arbre de Décision** : Bonne capacité de modélisation mais risque d’**overfitting**.
 - **Random Forest** : Meilleur compromis entre **précision** et **robustesse**.
 - **SVR** : Bonne gestion des **relations non linéaires**, mais coûteux en calcul.
 - **KNN** : Performant mais sensible au **bruit des données**.
 - **XGBoost** : Meilleur modèle en termes de **performance globale**.
-
-### 📊 Recommandations
-- **Optimiser les investissements publicitaires** en privilégiant les canaux les plus influents.
-- **Tester des budgets différents** et analyser l’impact sur les ventes.
-- **Explorer des modèles avancés** comme le **Deep Learning** pour améliorer la prédiction.
 
 ---
 

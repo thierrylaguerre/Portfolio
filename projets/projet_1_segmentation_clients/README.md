@@ -54,3 +54,5 @@ projet_1_segmentation_clients/
 
 
 
+
+

@@ -30,10 +30,8 @@ L’objectif de ce projet est de segmenter une base de clients en groupes distin
 projet_1_segmentation_clients/
 │── pyspark/
 │   ├── segmentation_pyspark.ipynb
-│   ├── README.md  # Explication spécifique PySpark
 │── python/
 │   ├── segmentation_python.ipynb
-│   ├── README.md  # Explication spécifique Python
 │── data/  # Dataset utilisé pour tous
 |   ├── données_brutes.csv 
 │── README.md  # Explication générale du projet
@@ -51,10 +49,6 @@ projet_1_segmentation_clients/
   - **K-Means** : excellent pour les **grandes bases de données**.
   - **GMM** : utile pour des segments non linéaires.
   - **Bisecting K-Means** : alternative intéressante avec une meilleure **hiérarchisation** des clusters.
-
-### 📊 Interprétation des segments
-- Identification de **profils clients dominants** (fidèles, occasionnels, gros consommateurs, etc.).
-- Proposition de **stratégies marketing ciblées** pour chaque segment.
 
 
 

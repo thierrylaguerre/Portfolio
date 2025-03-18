@@ -43,9 +43,8 @@ Une fois les modèles entraînés, leurs performances ont été comparées à l�
 - **Score F1**
 - **Matrice de confusion**
 
-Cette évaluation a permis de sélectionner le modèle le plus efficace pour la détection de fraude.
+Cette évaluation a permis de sélectionner le modèle le plus efficace pour la détection de fraude:
 
----
 
 
 

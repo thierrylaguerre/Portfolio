@@ -40,9 +40,9 @@ projet_1_segmentation_clients/
 
 ### Comparaison des algorithmes
 - **Python (Scikit-learn)** :
-  - **K-Means** : rapide et efficace, mais sensible aux valeurs aberrantes.
-  - **DBSCAN** : détecte bien les **anomalies**, mais difficile à paramétrer.
-  - **GMM** : utile pour des segments **chevauchants**, mais plus coûteux en calcul.
+  - **K-Means** : le score de silhouette est 0.178148. Meilleur score parmi les trois algorithmes testés, mais reste faible, suggérant que les clusters ne sont pas bien séparés ou homogènes.
+  - **DBSCAN** : le score de silhouette est 0.100885. Un score intermédiaire, mais toujours faible, peut-être à cause d'un mauvais choix des paramètres 
+  - **GMM** : le score de silhouette est 0.017620. Très faible score, indiquant probablement un mauvais regroupement avec des clusters peu distincts.
 
 - **PySpark (MLlib)** :
   - **K-Means** : excellent pour les **grandes bases de données**.

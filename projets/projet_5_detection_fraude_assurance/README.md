@@ -23,7 +23,10 @@ L'objectif de ce projet est de **détecter les fraudes en assurance** en analysa
    - **XGBoost**  
    - **Gradient Boosting**  
    - **K-Nearest Neighbors (KNN)**  
-   - **Naive Bayes**  
+   - **Naive Bayes**
+   - **Random forest**
+   - **Régréssion logistique**
+   - **Adaboost**
 
 5. **Évaluation des Modèles**  
    - **Métriques utilisées** :  
@@ -46,8 +49,9 @@ projet_5_detection_fraude_assurance/
 ## Résultats et Analyse  
 
 ### Comparaison des Modèles  
-- **Random Forest & XGBoost** : Meilleurs résultats en précision et en rappel.  
-- **Gradient Boosting** : Bonne performance, mais plus lent à entraîner.  
-- **KNN & Naive Bayes** : Moins performants sur ce jeu de données.  
-
+- **XGBoost (96% de précision)** : Meilleur compromis entre précision (0.94 pour la classe minoritaire) et rappel (0.78), offrant un bon équilibre.
+- **Random Forest, SVM, ExtraTrees & Logistic Regression (94% de précision)** : Excellents résultats, mais le rappel sur la classe minoritaire (0.64) est un point d’amélioration.
+- **KNN (90% de précision)** : Moins performant, mais un rappel plus élevé (0.78) pour la classe 1.
+- **Adaboost (91% de précision)** : Performances acceptables, mais un rappel très faible (0.47) sur la classe 1, ce qui signifie qu’il manque de nombreuses détections.
+- **Naive Bayes (30% de précision)** : Mauvaises performances globales, avec un rappel inversé (97% pour la classe 1 mais seulement 17% pour la classe 0), rendant le modèle inutilisable
 

@@ -23,7 +23,6 @@ L’objectif de ce projet est de segmenter une base de clients en groupes distin
 4. **Évaluation des performances**  
    - Utilisation de **Silhouette Score**.  
 
-5. **Interprétation des résultats**  
 
 ## Structure du projet
 ```

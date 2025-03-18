@@ -1,16 +1,16 @@
-# 🖼️ Projet 9 : Classification d'images
+# Projet 9 : Classification d'images
 
-## 📊 Description du projet
+## Description du projet
 
 Ce projet consiste à développer un modèle de classification d'images en utilisant des réseaux neuronaux convolutionnels (CNN). L'objectif est de classer un ensemble d'images en différentes catégories en fonction de leurs caractéristiques visuelles. Ce projet inclut le prétraitement des images, l'entraînement d'un modèle CNN et l'évaluation de la performance du modèle.
 
-## 🎯 Objectifs
+## Objectifs
 
 - **Prétraiter les images** pour les rendre adaptées à l'entraînement d'un modèle de machine learning.
 - **Construire un modèle CNN** pour la classification d'images.
 - **Évaluer la performance du modèle** en termes de précision, rappel et F1-score.
 
-## 📂 Structure du projet
+## Structure du projet
 
 ````
 projet_9_classification_image/
@@ -20,13 +20,13 @@ projet_9_classification_image/
 │── classification_image.ipynb # Notebook contenant l'implémentation du modèle CNN
 ````
 
-## 🖼️ Données
+## Données
 
 Les données utilisées dans ce projet comprennent un ensemble d'images provenant de différentes catégories (par exemple, animaux, objets, scènes, etc.). Les images sont fournies dans des dossiers séparés pour chaque catégorie, et chaque catégorie sera utilisée pour entraîner le modèle.
 
 Les images sont fournies dans le répertoire `data/`.
 
-## 🔧 Méthodologie
+## Méthodologie
 
 1. **Prétraitement des images** :
    - Redimensionnement des images à une taille fixe (par exemple, 128x128 pixels).

@@ -25,7 +25,7 @@ L’objectif de ce projet est de segmenter une base de clients en groupes distin
 
 5. **Interprétation des résultats**  
 
-## 📂 Structure du projet
+## Structure du projet
 ```
 projet_1_segmentation_clients/
 │── pyspark/
@@ -37,9 +37,9 @@ projet_1_segmentation_clients/
 │── README.md  # Explication générale du projet
 ```
 
-## 🚀 Résultats et Analyse
+## Résultats et Analyse
 
-### 📌 Comparaison des algorithmes
+### Comparaison des algorithmes
 - **Python (Scikit-learn)** :
   - **K-Means** : rapide et efficace, mais sensible aux valeurs aberrantes.
   - **DBSCAN** : détecte bien les **anomalies**, mais difficile à paramétrer.

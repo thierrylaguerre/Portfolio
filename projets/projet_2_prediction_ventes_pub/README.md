@@ -1,9 +1,9 @@
-# 📈 Prédiction des Ventes Commerciales en Fonction des Investissements Publicitaires
+# Prédiction des Ventes Commerciales en Fonction des Investissements Publicitaires
 
-## 📌 Objectif du Projet
+## Objectif du Projet
 L'objectif de ce projet est de prédire les **ventes commerciales** en fonction des investissements réalisés dans différents médias (**TV, Radio, Journaux**). Cette analyse permet d'optimiser les **stratégies publicitaires** et d’identifier les canaux les plus rentables.
 
-## 🔍 Méthodologie
+## Méthodologie
 
 1. **Analyse Exploratoire des Données (EDA)**
    - Visualisation des relations entre les investissements publicitaires et les ventes.
@@ -29,7 +29,6 @@ L'objectif de ce projet est de prédire les **ventes commerciales** en fonction 
      - **RMSE (Root Mean Squared Error)**
      - **R² Score**  
 
-5. **Interprétation des Résultats**
    
 ## Structure du Projet
 
@@ -51,14 +50,6 @@ projet_2_prediction_ventes_pub/
 - **KNN** : Performant mais sensible au **bruit des données**.
 - **XGBoost** : Meilleur modèle en termes de **performance globale**.
 
----
 
-## 🔧 Compétences Mises en Œuvre
-✅ **Prétraitement des données & EDA**  
-✅ **Régression Linéaire & Arbre de Décision**  
-✅ **Random Forest & XGBoost**  
-✅ **K-Nearest Neighbors (KNN) & SVR**  
-✅ **Évaluation des modèles avec MSE, RMSE & R² Score**  
-✅ **Optimisation des stratégies publicitaires à partir des données**
 
 

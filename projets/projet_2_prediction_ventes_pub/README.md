@@ -43,12 +43,12 @@ projet_2_prediction_ventes_pub/
 ## Résultats et Analyse
 
 ### Comparaison des Algorithmes
-**Random Forest :** Meilleur modèle avec une MAE de 0.68, un R² de 0.98 et une accuracy de 98%, indiquant une excellente prédiction.
-**XGBoost :** Performant mais légèrement en dessous de Random Forest, avec un R² de 0.97 et une accuracy de 97%.
-**Decision Tree :** Moins précis, avec un R² de 0.92 et une accuracy de 92%, montrant une perte de performance par rapport aux ensembles (RF/XGB).
-**Régression Linéaire :** Performances limitées (R² de 0.89), suggérant que les relations ne sont pas purement linéaires.
-**KNN :** Similaire à la régression linéaire (R² de 0.89), peut être sensible aux valeurs aberrantes.
-**SVR :** Résultats proches de KNN et de la régression linéaire, mais moins performant que les modèles ensemblistes.
+- **Random Forest :** Meilleur modèle avec une **MAE de 0.68**, un **R² de 0.98** et une **accuracy de 98%**, indiquant une excellente prédiction.
+- **XGBoost :** Performant mais légèrement en dessous de Random Forest, avec un **R² de 0.97** et une **accuracy de 97%**.
+- **Decision Tree :** Moins précis, avec un **R² de 0.92** et une **accuracy de 92%**, montrant une perte de performance par rapport aux ensembles.
+- **Régression Linéaire :** Performances limitées **(R² de 0.89)**, suggérant que les relations ne sont pas purement linéaires.
+- **KNN :** Similaire à la régression linéaire **(R² de 0.89)**, peut être sensible aux valeurs aberrantes.
+- **SVR :** Résultats **proches de KNN et de la régression linéaire**, mais moins performant que les modèles ensemblistes.
 
 
 

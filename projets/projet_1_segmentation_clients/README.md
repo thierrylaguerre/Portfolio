@@ -44,10 +44,11 @@ projet_1_segmentation_clients/
   - **DBSCAN** : le score de silhouette est 0.100885. Un score intermédiaire, mais toujours faible, peut-être à cause d'un mauvais choix des paramètres 
   - **GMM** : le score de silhouette est 0.017620. Très faible score, indiquant probablement un mauvais regroupement avec des clusters peu distincts.
 
+
 - **PySpark (MLlib)** :
-  - **K-Means** : excellent pour les **grandes bases de données**.
-  - **GMM** : utile pour des segments non linéaires.
-  - **Bisecting K-Means** : alternative intéressante avec une meilleure **hiérarchisation** des clusters.
+  - **K-Means** : le score de silhouette est 0.5708954149193984. Offre la meilleure séparation des clusters, indiquant une structure bien définie dans les données.
+  - **GMM** : le score de silhouette est 0.2052461813447454. Produit des clusters moins distincts, suggérant qu’il ne capture pas bien la structure des données.
+  - **Bisecting K-Means** : le score de silhouette est 0.5632952501029738. Très proche de K-Means, il segmente efficacement les données avec une approche hiérarchique.
 
 
 

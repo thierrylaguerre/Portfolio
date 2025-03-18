@@ -47,9 +47,11 @@ projet_3_analyse_sentiments/
 ## Résultats et Analyse  
 
 ### Comparaison des Modèles  
-- **Logistic Regression & SVM** : Simples et performants pour les petits jeux de données.  
-- **Random Forest** : Robuste mais nécessite plus de données pour une meilleure précision.  
-- **Naive Bayes** : Rapide mais moins performant sur des textes longs et variés.  
-- **LSTM, CNN & GRU** : Meilleurs résultats en Deep Learning, mais nécessitent **beaucoup de données et de ressources**.  
+- **Logistic Regression & SVM** : Les meilleurs modèles en termes de **précision avec 85%**, indiquant une bonne capacité de classification.
+- **GRU** : **Précision de 84%**. Très proche des meilleurs, ce qui montre que ce réseau de neurones récurrent capte bien les dépendances temporelles.
+- **CNN** : **Précision de 82%**. Performant, surtout si les données ont une structure spatiale exploitable.
+- **Naive Bayes** : **Précision de 81%**. Solide, surtout si les données respectent l’hypothèse d’indépendance conditionnelle.
+- **Random Forest** : **Précision de 80%**. Légèrement en dessous des autres modèles, peut-être dû à des données non adaptées aux arbres de décision.
+- **LSTM** : **Précision de 22%**. Très faible, suggérant un problème d’apprentissage (sous-apprentissage, manque de données, mauvais hyperparamètres).
 ---
 

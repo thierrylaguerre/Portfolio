@@ -27,11 +27,11 @@ Le prétraitement des données est une étape cruciale dans ce projet. Plusieurs
 
 Plusieurs modèles ont été utilisés et évalués pour identifier celui qui offre les meilleures performances pour la détection de fraude.
 
-- **Isolation Forest** : Un algorithme basé sur l'isolement des observations pour détecter les anomalies.
-- **Régression Logistique** : Un modèle classique pour des problèmes de classification binaire.
-- **XGBoost** : Un modèle de boosting très performant, adapté aux problèmes de classification sur des données tabulaires.
-- **Random Forest** : Un algorithme d’ensemble utilisant plusieurs arbres de décision pour améliorer la précision.
-- **Hist Gradient Boosting** : Un algorithme de gradient boosting basé sur des histogrammes pour gérer efficacement des grands volumes de données.
+- **Isolation Forest**.
+- **Régression Logistique**.
+- **XGBoost**.
+- **Random Forest**.
+- **Hist Gradient Boosting**.
 
 ### 4. **Comparaison des Performances des Modèles**
 
@@ -45,35 +45,7 @@ Une fois les modèles entraînés, leurs performances ont été comparées à l�
 
 Cette évaluation a permis de sélectionner le modèle le plus efficace pour la détection de fraude.
 
-## Compétences et Technologies Utilisées
+---
 
-- **Hist Gradient Boosting**
-- **Gestion des données** : Nettoyage, transformation et prétraitement des données.
-- **Frameworks de Deep Learning** : TensorFlow, Keras (pour des modèles plus avancés si nécessaire).
-- **Forêt Aléatoire** : Random Forest pour des classifications robustes.
-- **Apprentissage Automatique** : Régression logistique, XGBoost, Isolation Forest pour des approches variées de la classification.
-- **SMOTE** : Gestion du déséquilibre des classes pour améliorer les performances de détection de fraudes.
 
-## Installation
-
-1. **Cloner le dépôt** :
-
-```bash
-git clone https://github.com/votre-utilisateur/detection-fraude-cartes.git
-
-````
-
-Installer les dépendances :
-```bash
-pip install -r requirements.txt
-````
-Exécution du projet :
-Lancer le script principal pour effectuer les analyses et l’entraînement des modèles :
-
-`````bash
-python main.py
-``````
-
-# Conclusion
-Ce projet de détection de fraude par carte de crédit met en évidence l'importance de la préparation des données et de l'évaluation de plusieurs modèles afin de garantir des résultats optimaux. Les techniques utilisées, telles que SMOTE pour la gestion du déséquilibre et l'utilisation de plusieurs modèles d'apprentissage automatique, ont permis d'améliorer la détection des fraudes.
 

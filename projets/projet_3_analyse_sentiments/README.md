@@ -1,9 +1,9 @@
-# 🎭 Analyse de Sentiments des Avis des Visiteurs des Parcs Disneyland  
+# Analyse de Sentiments des Avis des Visiteurs des Parcs Disneyland  
 
-## 📌 Objectif du Projet  
+## Objectif du Projet  
 L'objectif de ce projet est d'analyser et de classifier les **avis des visiteurs des parcs Disneyland** afin de comprendre leurs **sentiments** (positifs, négatifs ou neutres). Cette analyse permet d’identifier les **points d’amélioration** pour l’expérience client.
 
-## 🔍 Méthodologie  
+## Méthodologie  
 
 1. **Analyse Exploratoire des Données (EDA)**  
    - Visualisation de la **distribution des notes** attribuées par les visiteurs.  
@@ -44,25 +44,12 @@ projet_3_analyse_sentiments/
 │── README.md # Présentation générale du projet
 ````
 
-## 🚀 Résultats et Analyse  
+## Résultats et Analyse  
 
-### 📌 Comparaison des Modèles  
+### Comparaison des Modèles  
 - **Logistic Regression & SVM** : Simples et performants pour les petits jeux de données.  
 - **Random Forest** : Robuste mais nécessite plus de données pour une meilleure précision.  
 - **Naive Bayes** : Rapide mais moins performant sur des textes longs et variés.  
 - **LSTM, CNN & GRU** : Meilleurs résultats en Deep Learning, mais nécessitent **beaucoup de données et de ressources**.  
-
-### 📊 Recommandations  
-- **Optimiser le prétraitement des avis** pour améliorer la performance des modèles.  
-- **Expérimenter d’autres techniques NLP** comme le **TF-IDF ou Word Embeddings (Word2Vec, GloVe)**.  
-- **Tester d’autres architectures Deep Learning** pour des performances plus robustes.  
-
 ---
-
-## 🔧 Compétences Mises en Œuvre  
-✅ **Analyse Exploratoire des Données (EDA)**  
-✅ **Nettoyage et Prétraitement de Texte (NLP)**  
-✅ **Tokenization & Stemming**  
-✅ **Modélisation avec Machine Learning & Deep Learning**  
-✅ **Évaluation des modèles avec Accuracy, F1-score, Recall & Precision**  
 

@@ -43,6 +43,7 @@ Une fois les modèles entraînés, leurs performances ont été comparées à l�
 - **Score F1**
 - **Matrice de confusion**
 
+#### **Analyse des Performances des Modèles**
 - **HistGradientBoosting, Random Forest & XGBoost (100% de précision)** : Scores parfaits, mais possiblement surappris, à vérifier avec des données externes.
 - **Logistic Regression (97% de précision)**: Très bonne performance avec un bon équilibre précision/rappel, modèle robuste et interprétable.
 - **Isolation Forest (84% de précision)** : Bon pour l’anomalie detection, mais rappel très faible (0.05) sur la classe minoritaire, ce qui limite son efficacité.
